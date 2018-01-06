@@ -1,0 +1,87 @@
+Mon Dec 18 23:05:21 2017 daemon.warn zabbix_agentd[4368]: active check configuration update from [192.168.10.2:1234] is working again
+Mon Dec 18 23:09:09 2017 daemon.notice openvpn(client)[4369]: [vpn-crwifi] Inactivity timeout (--ping-restart), restarting
+Mon Dec 18 23:09:09 2017 daemon.notice openvpn(client)[4369]: SIGUSR1[soft,ping-restart] received, process restarting
+Mon Dec 18 23:09:09 2017 daemon.notice openvpn(client)[4369]: Restart pause, 2 second(s)
+Mon Dec 18 23:09:11 2017 daemon.notice openvpn(client)[4369]: Socket Buffers: R=[212992->131072] S=[212992->131072]
+Mon Dec 18 23:09:11 2017 daemon.notice openvpn(client)[4369]: UDPv4 link local: [undef]
+Mon Dec 18 23:09:11 2017 daemon.notice openvpn(client)[4369]: UDPv4 link remote: [AF_INET]123.57.9.21:2194
+Mon Dec 18 23:09:12 2017 daemon.notice openvpn(client)[4369]: TLS: Initial packet from [AF_INET]123.57.9.21:2194, sid=d672a5cf d020431b
+Mon Dec 18 23:09:12 2017 daemon.notice openvpn(client)[4369]: VERIFY OK: depth=1, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=CRTT CA, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Mon Dec 18 23:09:12 2017 daemon.notice openvpn(client)[4369]: VERIFY OK: nsCertType=SERVER
+Mon Dec 18 23:09:12 2017 daemon.notice openvpn(client)[4369]: VERIFY OK: depth=0, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=vpn-crwifi, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Mon Dec 18 23:09:13 2017 daemon.notice openvpn(client)[4369]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Mon Dec 18 23:09:13 2017 daemon.notice openvpn(client)[4369]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Mon Dec 18 23:09:13 2017 daemon.notice openvpn(client)[4369]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Mon Dec 18 23:09:13 2017 daemon.notice openvpn(client)[4369]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Mon Dec 18 23:09:13 2017 daemon.notice openvpn(client)[4369]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Mon Dec 18 23:09:13 2017 daemon.notice openvpn(client)[4369]: [vpn-crwifi] Peer Connection Initiated with [AF_INET]123.57.9.21:2194
+Mon Dec 18 23:09:15 2017 daemon.notice openvpn(client)[4369]: SENT CONTROL [vpn-crwifi]: 'PUSH_REQUEST' (status=1)
+Mon Dec 18 23:09:15 2017 daemon.notice openvpn(client)[4369]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.0.1,topology net30,ping 4,ping-restart 60,ifconfig 172.23.0.81 172.23.0.82'
+Mon Dec 18 23:09:15 2017 daemon.notice openvpn(client)[4369]: OPTIONS IMPORT: timers and/or timeouts modified
+Mon Dec 18 23:09:15 2017 daemon.notice openvpn(client)[4369]: OPTIONS IMPORT: --ifconfig/up options modified
+Mon Dec 18 23:09:15 2017 daemon.notice openvpn(client)[4369]: OPTIONS IMPORT: route options modified
+Mon Dec 18 23:09:15 2017 daemon.notice openvpn(client)[4369]: Preserving previous TUN/TAP instance: tun0
+Mon Dec 18 23:09:15 2017 daemon.notice openvpn(client)[4369]: Initialization Sequence Completed
+Mon Dec 18 23:09:24 2017 daemon.warn zabbix_agentd[4368]: Remote command [who | wc -l] result is not unsigned integer
+Mon Dec 18 23:09:24 2017 daemon.warn zabbix_agentd[4368]: active check "system.users.num" is not supported
+Mon Dec 18 23:11:27 2017 daemon.warn zabbix_agentd[4368]: active check configuration update from [192.168.10.2:1234] started to fail (ZBX_TCP_READ() failed: [4] Interrupted system call)
+Mon Dec 18 23:12:27 2017 daemon.warn zabbix_agentd[4368]: active check configuration update from [192.168.10.2:1234] is working again
+Mon Dec 18 23:20:30 2017 daemon.warn zabbix_agentd[4368]: Remote command [who | wc -l] result is not unsigned integer
+Mon Dec 18 23:20:30 2017 daemon.warn zabbix_agentd[4368]: active check "system.users.num" is not supported
+Mon Dec 18 23:32:31 2017 daemon.warn zabbix_agentd[4368]: Remote command [who | wc -l] result is not unsigned integer
+Mon Dec 18 23:32:31 2017 daemon.warn zabbix_agentd[4368]: active check "system.users.num" is not supported
+Mon Dec 18 23:43:19 2017 daemon.notice openvpn(client)[4369]: [vpn-crwifi] Inactivity timeout (--ping-restart), restarting
+Mon Dec 18 23:43:19 2017 daemon.notice openvpn(client)[4369]: SIGUSR1[soft,ping-restart] received, process restarting
+Mon Dec 18 23:43:19 2017 daemon.notice openvpn(client)[4369]: Restart pause, 2 second(s)
+Mon Dec 18 23:43:21 2017 daemon.notice openvpn(client)[4369]: Socket Buffers: R=[212992->131072] S=[212992->131072]
+Mon Dec 18 23:43:21 2017 daemon.notice openvpn(client)[4369]: UDPv4 link local: [undef]
+Mon Dec 18 23:43:21 2017 daemon.notice openvpn(client)[4369]: UDPv4 link remote: [AF_INET]123.57.9.21:2194
+Mon Dec 18 23:43:21 2017 daemon.notice openvpn(client)[4369]: TLS: Initial packet from [AF_INET]123.57.9.21:2194, sid=1dfdf72f 72f4e006
+Mon Dec 18 23:43:21 2017 daemon.notice openvpn(client)[4369]: VERIFY OK: depth=1, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=CRTT CA, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Mon Dec 18 23:43:21 2017 daemon.notice openvpn(client)[4369]: VERIFY OK: nsCertType=SERVER
+Mon Dec 18 23:43:21 2017 daemon.notice openvpn(client)[4369]: VERIFY OK: depth=0, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=vpn-crwifi, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Mon Dec 18 23:43:22 2017 daemon.notice openvpn(client)[4369]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Mon Dec 18 23:43:22 2017 daemon.notice openvpn(client)[4369]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Mon Dec 18 23:43:22 2017 daemon.notice openvpn(client)[4369]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Mon Dec 18 23:43:22 2017 daemon.notice openvpn(client)[4369]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Mon Dec 18 23:43:22 2017 daemon.notice openvpn(client)[4369]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Mon Dec 18 23:43:22 2017 daemon.notice openvpn(client)[4369]: [vpn-crwifi] Peer Connection Initiated with [AF_INET]123.57.9.21:2194
+Mon Dec 18 23:43:24 2017 daemon.notice openvpn(client)[4369]: SENT CONTROL [vpn-crwifi]: 'PUSH_REQUEST' (status=1)
+Mon Dec 18 23:43:24 2017 daemon.notice openvpn(client)[4369]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.0.1,topology net30,ping 4,ping-restart 60,ifconfig 172.23.0.81 172.23.0.82'
+Mon Dec 18 23:43:24 2017 daemon.notice openvpn(client)[4369]: OPTIONS IMPORT: timers and/or timeouts modified
+Mon Dec 18 23:43:24 2017 daemon.notice openvpn(client)[4369]: OPTIONS IMPORT: --ifconfig/up options modified
+Mon Dec 18 23:43:24 2017 daemon.notice openvpn(client)[4369]: OPTIONS IMPORT: route options modified
+Mon Dec 18 23:43:24 2017 daemon.notice openvpn(client)[4369]: Preserving previous TUN/TAP instance: tun0
+Mon Dec 18 23:43:24 2017 daemon.notice openvpn(client)[4369]: Initialization Sequence Completed
+Mon Dec 18 23:44:31 2017 daemon.warn zabbix_agentd[4368]: Remote command [who | wc -l] result is not unsigned integer
+Mon Dec 18 23:44:31 2017 daemon.warn zabbix_agentd[4368]: active check "system.users.num" is not supported
+Mon Dec 18 22:46:12 2017 daemon.warn zabbix_agentd[4368]: active check configuration update from [192.168.10.2:1234] is working again
+Mon Dec 18 22:48:17 2017 daemon.warn zabbix_agentd[4368]: Remote command [who | wc -l] result is not unsigned integer
+Mon Dec 18 22:48:17 2017 daemon.warn zabbix_agentd[4368]: active check "system.users.num" is not supported
+Mon Dec 18 22:58:18 2017 daemon.warn zabbix_agentd[4368]: Remote command [who | wc -l] result is not unsigned integer
+Mon Dec 18 22:58:18 2017 daemon.warn zabbix_agentd[4368]: active check "system.users.num" is not supported
+Mon Dec 18 22:58:55 2017 kern.debug kernel: [22184.476888] UDP: bad checksum. From 113.120.85.164:41173 to 10.34.86.215:1863 ulen 1134
+Mon Dec 18 23:02:02 2017 daemon.notice openvpn(client)[4369]: [vpn-crwifi] Inactivity timeout (--ping-restart), restarting
+Mon Dec 18 23:02:02 2017 daemon.notice openvpn(client)[4369]: SIGUSR1[soft,ping-restart] received, process restarting
+Mon Dec 18 23:02:02 2017 daemon.notice openvpn(client)[4369]: Restart pause, 2 second(s)
+Mon Dec 18 23:02:04 2017 daemon.notice openvpn(client)[4369]: Socket Buffers: R=[212992->131072] S=[212992->131072]
+Mon Dec 18 23:02:04 2017 daemon.notice openvpn(client)[4369]: UDPv4 link local: [undef]
+Mon Dec 18 23:02:04 2017 daemon.notice openvpn(client)[4369]: UDPv4 link remote: [AF_INET]123.57.9.21:2194
+Mon Dec 18 23:02:05 2017 daemon.notice openvpn(client)[4369]: TLS: Initial packet from [AF_INET]123.57.9.21:2194, sid=1a0313b6 e1fe9da7
+Mon Dec 18 23:02:06 2017 daemon.notice openvpn(client)[4369]: VERIFY OK: depth=1, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=CRTT CA, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Mon Dec 18 23:02:06 2017 daemon.notice openvpn(client)[4369]: VERIFY OK: nsCertType=SERVER
+Mon Dec 18 23:02:06 2017 daemon.notice openvpn(client)[4369]: VERIFY OK: depth=0, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=vpn-crwifi, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Mon Dec 18 23:02:07 2017 daemon.notice openvpn(client)[4369]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Mon Dec 18 23:02:07 2017 daemon.notice openvpn(client)[4369]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Mon Dec 18 23:02:07 2017 daemon.notice openvpn(client)[4369]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Mon Dec 18 23:02:07 2017 daemon.notice openvpn(client)[4369]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Mon Dec 18 23:02:07 2017 daemon.notice openvpn(client)[4369]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Mon Dec 18 23:02:07 2017 daemon.notice openvpn(client)[4369]: [vpn-crwifi] Peer Connection Initiated with [AF_INET]123.57.9.21:2194
+Mon Dec 18 23:02:09 2017 daemon.notice openvpn(client)[4369]: SENT CONTROL [vpn-crwifi]: 'PUSH_REQUEST' (status=1)
+Mon Dec 18 23:02:09 2017 daemon.notice openvpn(client)[4369]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.0.1,topology net30,ping 4,ping-restart 60,ifconfig 172.23.0.81 172.23.0.82'
+Mon Dec 18 23:02:09 2017 daemon.notice openvpn(client)[4369]: OPTIONS IMPORT: timers and/or timeouts modified
+Mon Dec 18 23:02:09 2017 daemon.notice openvpn(client)[4369]: OPTIONS IMPORT: --ifconfig/up options modified
+Mon Dec 18 23:02:09 2017 daemon.notice openvpn(client)[4369]: OPTIONS IMPORT: route options modified
+Mon Dec 18 23:02:09 2017 daemon.notice openvpn(client)[4369]: Preserving previous TUN/TAP instance: tun0
+Mon Dec 18 23:02:09 2017 daemon.notice openvpn(client)[4369]: Initialization Sequence Completed
+Mon Dec 18 23:04:21 2017 daemon.warn zabbix_agentd[4368]: active check configuration update from [192.168.10.2:1234] started to fail (ZBX_TCP_READ() failed: [4] Interrupted system call)

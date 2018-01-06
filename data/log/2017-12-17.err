@@ -1,0 +1,24 @@
+Sun Dec 17 23:12:50 2017 daemon.warn zabbix_agentd[4367]: Remote command [who | wc -l] result is not unsigned integer
+Sun Dec 17 23:12:50 2017 daemon.warn zabbix_agentd[4367]: active check "system.users.num" is not supported
+Sun Dec 17 23:22:53 2017 daemon.warn zabbix_agentd[4367]: Remote command [who | wc -l] result is not unsigned integer
+Sun Dec 17 23:22:53 2017 daemon.warn zabbix_agentd[4367]: active check "system.users.num" is not supported
+Sun Dec 17 23:32:55 2017 daemon.warn zabbix_agentd[4367]: Remote command [who | wc -l] result is not unsigned integer
+Sun Dec 17 23:32:55 2017 daemon.warn zabbix_agentd[4367]: active check "system.users.num" is not supported
+Sun Dec 17 23:44:56 2017 daemon.warn zabbix_agentd[4367]: Remote command [who | wc -l] result is not unsigned integer
+Sun Dec 17 23:44:56 2017 daemon.warn zabbix_agentd[4367]: active check "system.users.num" is not supported
+Sun Dec 17 23:52:13 2017 daemon.notice openvpn(client)[4362]: TLS: tls_process: killed expiring key
+Sun Dec 17 23:52:30 2017 daemon.notice openvpn(client)[4362]: VERIFY OK: depth=1, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=CRTT CA, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Sun Dec 17 23:52:30 2017 daemon.notice openvpn(client)[4362]: VERIFY OK: nsCertType=SERVER
+Sun Dec 17 23:52:30 2017 daemon.notice openvpn(client)[4362]: VERIFY OK: depth=0, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=vpn-crwifi, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Sun Dec 17 23:52:30 2017 daemon.notice openvpn(client)[4362]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Dec 17 23:52:30 2017 daemon.notice openvpn(client)[4362]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Dec 17 23:52:30 2017 daemon.notice openvpn(client)[4362]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Sun Dec 17 23:52:30 2017 daemon.notice openvpn(client)[4362]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sun Dec 17 23:52:30 2017 daemon.notice openvpn(client)[4362]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Sun Dec 17 23:54:58 2017 daemon.warn zabbix_agentd[4367]: Remote command [who | wc -l] result is not unsigned integer
+Sun Dec 17 23:54:58 2017 daemon.warn zabbix_agentd[4367]: active check "system.users.num" is not supported
+Sun Dec 17 22:55:46 2017 daemon.warn zabbix_agentd[4367]: active check configuration update from [192.168.10.2:1234] started to fail (ZBX_TCP_READ() failed: [4] Interrupted system call)
+Sun Dec 17 22:56:46 2017 daemon.warn zabbix_agentd[4367]: active check configuration update from [192.168.10.2:1234] is working again
+Sun Dec 17 23:02:46 2017 daemon.warn zabbix_agentd[4367]: Remote command [who | wc -l] result is not unsigned integer
+Sun Dec 17 23:02:46 2017 daemon.warn zabbix_agentd[4367]: active check "system.users.num" is not supported
+Sun Dec 17 23:08:48 2017 daemon.err zabbix_agentd[4367]: cannot parse list of active checks: cannot parse as a valid JSON object: invalid object format, expected opening character '{' at: ',{"key":"net.if.out[vth11]","delay":30,"lastlogsize":0,"mtime":0},{"key":"net.if.out[vth21,bytes]","delay":30,"lastlogsize":0,"mtime":0},{"key":"net.if.out[vt

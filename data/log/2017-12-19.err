@@ -1,0 +1,287 @@
+Tue Dec 19 11:27:53 2017 authpriv.info dropbear[30385]: Exit (root): Disconnect received
+Tue Dec 19 11:33:56 2017 daemon.warn zabbix_agentd[4385]: active check configuration update from [192.168.10.2:1234] started to fail (ZBX_TCP_READ() failed: [4] Interrupted system call)
+Tue Dec 19 11:34:57 2017 daemon.warn zabbix_agentd[4385]: active check configuration update from [192.168.10.2:1234] is working again
+Tue Dec 19 11:36:57 2017 daemon.warn zabbix_agentd[4385]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 11:36:57 2017 daemon.warn zabbix_agentd[4385]: active check "system.users.num" is not supported
+Tue Dec 19 11:46:58 2017 daemon.warn zabbix_agentd[4385]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 11:46:58 2017 daemon.warn zabbix_agentd[4385]: active check "system.users.num" is not supported
+Tue Dec 19 11:56:58 2017 daemon.warn zabbix_agentd[4385]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 11:56:58 2017 daemon.warn zabbix_agentd[4385]: active check "system.users.num" is not supported
+Tue Dec 19 12:06:59 2017 daemon.warn zabbix_agentd[4385]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 12:06:59 2017 daemon.warn zabbix_agentd[4385]: active check "system.users.num" is not supported
+Tue Dec 19 12:10:56 2017 daemon.notice openvpn(client)[4381]: TLS: soft reset sec=-1 bytes=92865/0 pkts=1760/0
+Tue Dec 19 12:10:56 2017 daemon.notice openvpn(client)[4381]: VERIFY OK: depth=1, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=CRTT CA, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Tue Dec 19 12:10:56 2017 daemon.notice openvpn(client)[4381]: VERIFY OK: nsCertType=SERVER
+Tue Dec 19 12:10:56 2017 daemon.notice openvpn(client)[4381]: VERIFY OK: depth=0, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=vpn-crwifi, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Tue Dec 19 12:10:57 2017 daemon.notice openvpn(client)[4381]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Dec 19 12:10:57 2017 daemon.notice openvpn(client)[4381]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Dec 19 12:10:57 2017 daemon.notice openvpn(client)[4381]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Dec 19 12:10:57 2017 daemon.notice openvpn(client)[4381]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Dec 19 12:10:57 2017 daemon.notice openvpn(client)[4381]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Tue Dec 19 12:17:01 2017 daemon.warn zabbix_agentd[4385]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 12:17:01 2017 daemon.warn zabbix_agentd[4385]: active check "system.users.num" is not supported
+Tue Dec 19 12:27:02 2017 daemon.warn zabbix_agentd[4385]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 12:27:02 2017 daemon.warn zabbix_agentd[4385]: active check "system.users.num" is not supported
+Tue Dec 19 13:12:07 2017 kern.info kernel: [   12.926167] 8021q: adding VLAN 0 to HW filter on device eth2
+Tue Dec 19 13:12:07 2017 kern.info kernel: [   12.932555] device eth2 entered promiscuous mode
+Tue Dec 19 13:12:07 2017 daemon.notice netifd: Interface 'loopback' is enabled
+Tue Dec 19 13:12:07 2017 daemon.notice netifd: Interface 'loopback' is setting up now
+Tue Dec 19 13:12:07 2017 daemon.notice netifd: Interface 'loopback' is now up
+Tue Dec 19 13:12:07 2017 daemon.notice netifd: Network device 'lo' link is up
+Tue Dec 19 13:12:07 2017 daemon.notice netifd: Interface 'loopback' has link connectivity 
+Tue Dec 19 13:12:10 2017 daemon.notice netifd: Network device 'eth0' link is up
+Tue Dec 19 13:12:10 2017 kern.info kernel: [   15.072262] igb 0000:02:00.0 eth0: igb: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
+Tue Dec 19 13:12:10 2017 kern.info kernel: [   15.081972] br-lan: port 1(eth0) entered forwarding state
+Tue Dec 19 13:12:10 2017 kern.info kernel: [   15.088667] br-lan: port 1(eth0) entered forwarding state
+Tue Dec 19 13:12:10 2017 kern.info kernel: [   15.094337] IPv6: ADDRCONF(NETDEV_CHANGE): br-lan: link becomes ready
+Tue Dec 19 13:12:10 2017 kern.crit kernel: [   15.099335] EXT4-fs error (device sda2): ext4_mb_generate_buddy:757: group 0, block bitmap and bg descriptor inconsistent: 32218 vs 32221 free clusters
+Tue Dec 19 13:12:10 2017 daemon.notice netifd: Bridge 'br-lan' link is up
+Tue Dec 19 13:12:10 2017 daemon.notice netifd: Interface 'lan' has link connectivity 
+Tue Dec 19 13:12:12 2017 kern.info kernel: [   17.083636] br-lan: port 1(eth0) entered forwarding state
+Tue Dec 19 13:12:12 2017 daemon.info dnsmasq[4228]: started, version 2.73 cachesize 2000
+Tue Dec 19 13:12:12 2017 daemon.info dnsmasq[4228]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP no-DHCPv6 no-Lua TFTP no-conntrack no-ipset no-auth no-DNSSEC loop-detect inotify
+Tue Dec 19 13:12:12 2017 daemon.info dnsmasq[4228]: using nameserver 114.114.114.114#53
+Tue Dec 19 13:12:12 2017 daemon.info dnsmasq[4228]: cleared cache
+Tue Dec 19 13:12:12 2017 daemon.info zabbix_agentd[4303]: Starting Zabbix Agent [CR400AF-2011-R]. Zabbix 2.4.6 (revision 54796).
+Tue Dec 19 13:12:12 2017 daemon.info zabbix_agentd[4303]: using configuration file: /etc/zabbix_agentd.conf
+Tue Dec 19 13:12:12 2017 daemon.info zabbix_agentd[4303]: agent #0 started [main process]
+Tue Dec 19 13:12:12 2017 daemon.info zabbix_agentd[4318]: agent #1 started [collector]
+Tue Dec 19 13:12:12 2017 daemon.info zabbix_agentd[4319]: agent #2 started [active checks #1]
+Tue Dec 19 13:12:12 2017 user.emerg syslog: mount: mounting /dev/sda1 on /backup_data failed: Device or resource busy
+Tue Dec 19 13:12:12 2017 user.emerg syslog: mount: mounting /dev/sda2 on /logs failed: Device or resource busy
+Tue Dec 19 13:12:14 2017 kern.info kernel: [   19.676591] device br-lan entered promiscuous mode
+Tue Dec 19 13:12:14 2017 daemon.err openvpn(client)[4320]: write UDPv4: Network is unreachable (code=101)
+Tue Dec 19 13:12:18 2017 daemon.notice openvpn(client)[4320]: TLS: Initial packet from [AF_INET]123.57.9.21:2194, sid=9a15f57b 0663efde
+Tue Dec 19 13:12:18 2017 daemon.notice openvpn(client)[4320]: VERIFY OK: depth=1, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=CRTT CA, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Tue Dec 19 13:12:18 2017 daemon.notice openvpn(client)[4320]: VERIFY OK: nsCertType=SERVER
+Tue Dec 19 13:12:18 2017 daemon.notice openvpn(client)[4320]: VERIFY OK: depth=0, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=vpn-crwifi, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Tue Dec 19 13:12:19 2017 daemon.notice openvpn(client)[4320]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Dec 19 13:12:19 2017 daemon.notice openvpn(client)[4320]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Dec 19 13:12:19 2017 daemon.notice openvpn(client)[4320]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Dec 19 13:12:19 2017 daemon.notice openvpn(client)[4320]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Dec 19 13:12:19 2017 daemon.notice openvpn(client)[4320]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Tue Dec 19 13:12:19 2017 daemon.notice openvpn(client)[4320]: [vpn-crwifi] Peer Connection Initiated with [AF_INET]123.57.9.21:2194
+Tue Dec 19 13:12:21 2017 kern.info kernel: [   26.083894] br-lte: port 2(vth11) entered forwarding state
+Tue Dec 19 13:12:21 2017 kern.info kernel: [   26.093901] br-lte: port 1(vth51) entered forwarding state
+Tue Dec 19 13:12:21 2017 daemon.notice openvpn(client)[4320]: SENT CONTROL [vpn-crwifi]: 'PUSH_REQUEST' (status=1)
+Tue Dec 19 13:12:21 2017 kern.info kernel: [   26.244076] br-lte: port 3(vth41) entered forwarding state
+Tue Dec 19 13:12:21 2017 kern.crit kernel: [   26.254267] EXT4-fs error (device sda2): ext4_mb_generate_buddy:757: group 3, block bitmap and bg descriptor inconsistent: 3431 vs 3432 free clusters
+Tue Dec 19 13:12:21 2017 kern.crit kernel: [   26.267953] EXT4-fs error (device sda2): ext4_mb_generate_buddy:757: group 4, block bitmap and bg descriptor inconsistent: 4730 vs 4731 free clusters
+Tue Dec 19 13:12:21 2017 kern.info kernel: [   26.294130] br-lte: port 4(vth31) entered forwarding state
+Tue Dec 19 13:12:21 2017 kern.info kernel: [   26.299696] br-lte: port 5(vth21) entered forwarding state
+Tue Dec 19 13:12:21 2017 daemon.notice openvpn(client)[4320]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.0.1,topology net30,ping 4,ping-restart 60,ifconfig 172.23.0.81 172.23.0.82'
+Tue Dec 19 13:12:21 2017 daemon.notice openvpn(client)[4320]: OPTIONS IMPORT: timers and/or timeouts modified
+Tue Dec 19 13:12:21 2017 daemon.notice openvpn(client)[4320]: OPTIONS IMPORT: --ifconfig/up options modified
+Tue Dec 19 13:12:21 2017 daemon.notice openvpn(client)[4320]: OPTIONS IMPORT: route options modified
+Tue Dec 19 13:12:21 2017 daemon.notice openvpn(client)[4320]: TUN/TAP device tun0 opened
+Tue Dec 19 13:12:21 2017 daemon.notice openvpn(client)[4320]: TUN/TAP TX queue length set to 100
+Tue Dec 19 13:12:21 2017 daemon.notice openvpn(client)[4320]: do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Tue Dec 19 13:12:21 2017 daemon.notice openvpn(client)[4320]: /sbin/ifconfig tun0 172.23.0.81 pointopoint 172.23.0.82 mtu 1500
+Tue Dec 19 13:12:21 2017 daemon.notice openvpn(client)[4320]: /sbin/route add -net 172.16.0.1 netmask 255.255.255.255 gw 172.23.0.82
+Tue Dec 19 13:12:21 2017 daemon.notice openvpn(client)[4320]: Initialization Sequence Completed
+Tue Dec 19 13:12:21 2017 kern.info kernel: [   26.374222] br-lte: port 6(vth81) entered forwarding state
+Tue Dec 19 13:12:21 2017 kern.info kernel: [   26.924854] br-lte: port 8(vth71) entered forwarding state
+Tue Dec 19 13:12:21 2017 kern.info kernel: [   26.934862] br-lte: port 7(vth91) entered forwarding state
+Tue Dec 19 13:12:22 2017 kern.info kernel: [   27.135090] br-lte: port 9(vth61) entered forwarding state
+Tue Dec 19 13:13:10 2017 kern.crit kernel: [   75.542704] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 0, block bitmap and bg descriptor inconsistent: 1707 vs 1708 free clusters
+Tue Dec 19 13:13:10 2017 kern.crit kernel: [   75.556380] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 1, block bitmap and bg descriptor inconsistent: 29967 vs 29968 free clusters
+Tue Dec 19 13:13:10 2017 kern.crit kernel: [   75.570227] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 2, block bitmap and bg descriptor inconsistent: 32144 vs 32145 free clusters
+Tue Dec 19 13:13:17 2017 daemon.warn zabbix_agentd[4319]: active check configuration update from [192.168.10.2:1234] is working again
+Tue Dec 19 13:13:17 2017 daemon.warn zabbix_agentd[4319]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 13:13:17 2017 daemon.warn zabbix_agentd[4319]: active check "system.users.num" is not supported
+Tue Dec 19 13:13:45 2017 kern.crit kernel: [  110.712421] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 5, block bitmap and bg descriptor inconsistent: 32124 vs 32126 free clusters
+Tue Dec 19 13:13:45 2017 kern.crit kernel: [  110.726259] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 6, block bitmap and bg descriptor inconsistent: 32213 vs 32216 free clusters
+Tue Dec 19 13:13:45 2017 kern.crit kernel: [  110.740114] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 7, block bitmap and bg descriptor inconsistent: 584 vs 585 free clusters
+Tue Dec 19 13:13:45 2017 kern.crit kernel: [  110.753601] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 8, block bitmap and bg descriptor inconsistent: 1236 vs 1235 free clusters
+Tue Dec 19 13:13:45 2017 kern.crit kernel: [  110.768074] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 16, block bitmap and bg descriptor inconsistent: 355 vs 356 free clusters
+Tue Dec 19 13:13:45 2017 kern.crit kernel: [  110.781665] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 17, block bitmap and bg descriptor inconsistent: 19784 vs 19785 free clusters
+Tue Dec 19 13:13:45 2017 kern.crit kernel: [  110.795839] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 20, block bitmap and bg descriptor inconsistent: 417 vs 418 free clusters
+Tue Dec 19 13:13:45 2017 kern.crit kernel: [  110.809935] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 25, block bitmap and bg descriptor inconsistent: 18600 vs 18601 free clusters
+Tue Dec 19 13:17:05 2017 kern.notice kernel: [  310.606565] EXT4-fs (sda1): error count since last fsck: 3288
+Tue Dec 19 13:17:05 2017 kern.notice kernel: [  310.612387] EXT4-fs (sda1): initial error at time 1507837169: mb_free_blocks:1452: inode 10911749: block 43654660
+Tue Dec 19 13:17:05 2017 kern.notice kernel: [  310.622893] EXT4-fs (sda1): last error at time 1513660425: ext4_mb_generate_buddy:757
+Tue Dec 19 13:17:05 2017 kern.notice kernel: [  310.630882] EXT4-fs (sda2): error count since last fsck: 111
+Tue Dec 19 13:17:05 2017 kern.notice kernel: [  310.636612] EXT4-fs (sda2): initial error at time 1510862673: mb_free_blocks:1452: inode 14360578: block 732
+Tue Dec 19 13:17:05 2017 kern.notice kernel: [  310.646681] EXT4-fs (sda2): last error at time 1513660341: ext4_mb_generate_buddy:757
+Tue Dec 19 13:19:46 2017 kern.crit kernel: [  471.959505] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 36, block bitmap and bg descriptor inconsistent: 21607 vs 21608 free clusters
+Tue Dec 19 13:19:46 2017 kern.crit kernel: [  471.975788] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 60, block bitmap and bg descriptor inconsistent: 1597 vs 1599 free clusters
+Tue Dec 19 13:19:46 2017 kern.crit kernel: [  471.989708] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 63, block bitmap and bg descriptor inconsistent: 2016 vs 2017 free clusters
+Tue Dec 19 13:19:46 2017 kern.crit kernel: [  472.005416] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 68, block bitmap and bg descriptor inconsistent: 11739 vs 11740 free clusters
+Tue Dec 19 13:19:46 2017 kern.crit kernel: [  472.020513] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 79, block bitmap and bg descriptor inconsistent: 2127 vs 2129 free clusters
+Tue Dec 19 13:19:46 2017 kern.crit kernel: [  472.036386] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 102, block bitmap and bg descriptor inconsistent: 3933 vs 3934 free clusters
+Tue Dec 19 13:19:46 2017 kern.crit kernel: [  472.059777] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 184, block bitmap and bg descriptor inconsistent: 28967 vs 28974 free clusters
+Tue Dec 19 13:19:46 2017 kern.crit kernel: [  472.084846] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 270, block bitmap and bg descriptor inconsistent: 21306 vs 21312 free clusters
+Tue Dec 19 13:19:46 2017 kern.crit kernel: [  472.106257] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 335, block bitmap and bg descriptor inconsistent: 14295 vs 14296 free clusters
+Tue Dec 19 13:19:46 2017 kern.crit kernel: [  472.126780] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 397, block bitmap and bg descriptor inconsistent: 17460 vs 17461 free clusters
+Tue Dec 19 13:23:18 2017 daemon.err zabbix_agentd[4319]: cannot parse list of active checks: cannot parse as a valid JSON object: invalid object format, expected opening character '{' at: ',{"key":"net.if.out[vth11]","delay":30,"lastlogsize":0,"mtime":0},{"key":"net.if.out[vth21,bytes]","delay":30,"lastlogsize":0,"mtime":0},{"key":"net.if.out[vt
+Tue Dec 19 13:25:18 2017 daemon.warn zabbix_agentd[4319]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 13:25:18 2017 daemon.warn zabbix_agentd[4319]: active check "system.users.num" is not supported
+Tue Dec 19 13:26:53 2017 kern.crit kernel: [  898.914334] EXT4-fs error (device sda2): ext4_mb_generate_buddy:757: group 71, block bitmap and bg descriptor inconsistent: 21651 vs 21699 free clusters
+Tue Dec 19 13:35:21 2017 daemon.warn zabbix_agentd[4319]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 13:35:21 2017 daemon.warn zabbix_agentd[4319]: active check "system.users.num" is not supported
+Tue Dec 19 13:45:22 2017 daemon.warn zabbix_agentd[4319]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 13:45:22 2017 daemon.warn zabbix_agentd[4319]: active check "system.users.num" is not supported
+Tue Dec 19 13:47:22 2017 daemon.err zabbix_agentd[4319]: cannot parse list of active checks: cannot parse as a valid JSON object: invalid object format, expected opening character '{' at: ',{"key":"net.if.out[vth11]","delay":30,"lastlogsize":0,"mtime":0},{"key":"net.if.out[vth21,bytes]","delay":30,"lastlogsize":0,"mtime":0},{"key":"net.if.out[vt
+Tue Dec 19 13:55:22 2017 daemon.warn zabbix_agentd[4319]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 13:55:22 2017 daemon.warn zabbix_agentd[4319]: active check "system.users.num" is not supported
+Tue Dec 19 14:05:23 2017 daemon.err zabbix_agentd[4319]: cannot parse list of active checks: cannot parse as a valid JSON object: invalid object format, expected opening character '{' at: ',{"key":"net.if.out[vth11]","delay":30,"lastlogsize":0,"mtime":0},{"key":"net.if.out[vth21,bytes]","delay":30,"lastlogsize":0,"mtime":0},{"key":"net.if.out[vt
+Tue Dec 19 14:07:23 2017 daemon.warn zabbix_agentd[4319]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 14:07:23 2017 daemon.warn zabbix_agentd[4319]: active check "system.users.num" is not supported
+Tue Dec 19 16:21:01 2017 kern.info kernel: [   12.319262] 8021q: adding VLAN 0 to HW filter on device eth2
+Tue Dec 19 16:21:01 2017 kern.info kernel: [   12.325315] device eth2 entered promiscuous mode
+Tue Dec 19 16:21:01 2017 daemon.notice netifd: Interface 'loopback' is enabled
+Tue Dec 19 16:21:01 2017 daemon.notice netifd: Interface 'loopback' is setting up now
+Tue Dec 19 16:21:01 2017 daemon.notice netifd: Interface 'loopback' is now up
+Tue Dec 19 16:21:01 2017 daemon.notice netifd: Network device 'lo' link is up
+Tue Dec 19 16:21:01 2017 daemon.notice netifd: Interface 'loopback' has link connectivity 
+Tue Dec 19 16:21:01 2017 kern.crit kernel: [   12.348067] EXT4-fs error (device sda2): ext4_mb_generate_buddy:757: group 0, block bitmap and bg descriptor inconsistent: 32218 vs 32221 free clusters
+Tue Dec 19 16:21:01 2017 kern.crit kernel: [   12.362144] EXT4-fs error (device sda2): ext4_mb_generate_buddy:757: group 3, block bitmap and bg descriptor inconsistent: 3431 vs 3432 free clusters
+Tue Dec 19 16:21:01 2017 kern.crit kernel: [   12.377109] EXT4-fs error (device sda2): ext4_mb_generate_buddy:757: group 4, block bitmap and bg descriptor inconsistent: 4730 vs 4731 free clusters
+Tue Dec 19 16:21:03 2017 daemon.notice netifd: Network device 'eth0' link is up
+Tue Dec 19 16:21:03 2017 kern.info kernel: [   14.611550] igb 0000:02:00.0 eth0: igb: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX/TX
+Tue Dec 19 16:21:03 2017 kern.info kernel: [   14.621276] br-lan: port 1(eth0) entered forwarding state
+Tue Dec 19 16:21:03 2017 kern.info kernel: [   14.626751] br-lan: port 1(eth0) entered forwarding state
+Tue Dec 19 16:21:03 2017 daemon.notice netifd: Bridge 'br-lan' link is up
+Tue Dec 19 16:21:03 2017 daemon.notice netifd: Interface 'lan' has link connectivity 
+Tue Dec 19 16:21:03 2017 kern.info kernel: [   14.632439] IPv6: ADDRCONF(NETDEV_CHANGE): br-lan: link becomes ready
+Tue Dec 19 16:21:05 2017 kern.info kernel: [   16.622917] br-lan: port 1(eth0) entered forwarding state
+Tue Dec 19 16:21:05 2017 daemon.info dnsmasq[4279]: started, version 2.73 cachesize 2000
+Tue Dec 19 16:21:05 2017 daemon.info dnsmasq[4279]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP no-DHCPv6 no-Lua TFTP no-conntrack no-ipset no-auth no-DNSSEC loop-detect inotify
+Tue Dec 19 16:21:05 2017 daemon.info dnsmasq[4279]: using nameserver 114.114.114.114#53
+Tue Dec 19 16:21:05 2017 daemon.info dnsmasq[4279]: cleared cache
+Tue Dec 19 16:21:06 2017 daemon.info zabbix_agentd[4354]: Starting Zabbix Agent [CR400AF-2011-R]. Zabbix 2.4.6 (revision 54796).
+Tue Dec 19 16:21:06 2017 daemon.info zabbix_agentd[4354]: using configuration file: /etc/zabbix_agentd.conf
+Tue Dec 19 16:21:06 2017 daemon.info zabbix_agentd[4354]: agent #0 started [main process]
+Tue Dec 19 16:21:06 2017 daemon.info zabbix_agentd[4369]: agent #1 started [collector]
+Tue Dec 19 16:21:06 2017 daemon.info zabbix_agentd[4370]: agent #2 started [active checks #1]
+Tue Dec 19 16:21:06 2017 user.emerg syslog: mount: mounting /dev/sda1 on /backup_data failed: Device or resource busy
+Tue Dec 19 16:21:06 2017 user.emerg syslog: mount: mounting /dev/sda2 on /logs failed: Device or resource busy
+Tue Dec 19 16:21:06 2017 daemon.notice openvpn(client)[4371]: OpenVPN 2.3.6 x86_64-openwrt-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [MH] [IPv6] built on Nov  1 2017
+Tue Dec 19 16:21:06 2017 daemon.notice openvpn(client)[4371]: library versions: OpenSSL 1.0.2j  26 Sep 2016, LZO 2.08
+Tue Dec 19 16:21:06 2017 daemon.warn openvpn(client)[4371]: WARNING: file '/etc/openvpn/CR400AF-2011-R.key' is group or others accessible
+Tue Dec 19 16:21:06 2017 daemon.notice openvpn(client)[4371]: Socket Buffers: R=[212992->131072] S=[212992->131072]
+Tue Dec 19 16:21:06 2017 daemon.notice openvpn(client)[4371]: UDPv4 link local: [undef]
+Tue Dec 19 16:21:06 2017 daemon.notice openvpn(client)[4371]: UDPv4 link remote: [AF_INET]123.57.9.21:2194
+Tue Dec 19 16:21:06 2017 daemon.err openvpn(client)[4371]: write UDPv4: Network is unreachable (code=101)
+Tue Dec 19 16:21:06 2017 user.err syslog: Cannot translate 'CR400AF-2011-R' to FQDN name -- Name or service not known
+Tue Dec 19 16:21:06 2017 user.info monit[4345]: Starting Monit 5.14 daemon with http interface at [localhost]:2812
+Tue Dec 19 16:21:06 2017 user.info monit[4345]: Starting Monit HTTP server at [localhost]:2812
+Tue Dec 19 16:21:06 2017 user.info monit[4345]: Monit HTTP server started
+Tue Dec 19 16:21:06 2017 user.info monit[4345]: 'CR400AF-2011-R' Monit 5.14 started
+Tue Dec 19 16:21:06 2017 daemon.notice vnstatd[4504]: vnStat daemon 1.12 started. (uid:0 gid:0)
+Tue Dec 19 16:21:06 2017 daemon.notice vnstatd[4504]: Monitoring: br-lan (100 Mbit) 
+Tue Dec 19 16:21:06 2017 daemon.info procd: - init complete -
+Tue Dec 19 16:21:06 2017 kern.warn kernel: [   17.148970] HTB: quantum of class 20001 is big. Consider r2q change.
+Tue Dec 19 16:21:08 2017 kern.info kernel: [   19.225896] device br-lan entered promiscuous mode
+Tue Dec 19 16:21:08 2017 daemon.err openvpn(client)[4371]: write UDPv4: Network is unreachable (code=101)
+Tue Dec 19 16:21:12 2017 daemon.notice openvpn(client)[4371]: TLS: Initial packet from [AF_INET]123.57.9.21:2194, sid=ce82987e b449db93
+Tue Dec 19 16:21:12 2017 daemon.notice openvpn(client)[4371]: VERIFY OK: depth=1, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=CRTT CA, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Tue Dec 19 16:21:12 2017 daemon.notice openvpn(client)[4371]: VERIFY OK: nsCertType=SERVER
+Tue Dec 19 16:21:12 2017 daemon.notice openvpn(client)[4371]: VERIFY OK: depth=0, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=vpn-crwifi, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Tue Dec 19 16:21:13 2017 daemon.notice openvpn(client)[4371]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Dec 19 16:21:13 2017 daemon.notice openvpn(client)[4371]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Dec 19 16:21:13 2017 daemon.notice openvpn(client)[4371]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Dec 19 16:21:13 2017 daemon.notice openvpn(client)[4371]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Dec 19 16:21:13 2017 daemon.notice openvpn(client)[4371]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Tue Dec 19 16:21:13 2017 daemon.notice openvpn(client)[4371]: [vpn-crwifi] Peer Connection Initiated with [AF_INET]123.57.9.21:2194
+Tue Dec 19 16:21:14 2017 kern.info kernel: [   25.192690] br-lte: port 1(vth31) entered forwarding state
+Tue Dec 19 16:21:14 2017 kern.info kernel: [   25.513055] br-lte: port 3(vth21) entered forwarding state
+Tue Dec 19 16:21:14 2017 kern.info kernel: [   25.543093] br-lte: port 4(vth91) entered forwarding state
+Tue Dec 19 16:21:14 2017 kern.info kernel: [   25.633191] br-lte: port 5(vth61) entered forwarding state
+Tue Dec 19 16:21:14 2017 kern.info kernel: [   25.703275] br-lte: port 6(vth41) entered forwarding state
+Tue Dec 19 16:21:14 2017 kern.info kernel: [   25.833421] br-lte: port 7(vth71) entered forwarding state
+Tue Dec 19 16:21:15 2017 kern.info kernel: [   26.183825] br-lte: port 2(vth11) entered forwarding state
+Tue Dec 19 16:21:15 2017 kern.info kernel: [   26.273924] br-lte: port 8(vth81) entered forwarding state
+Tue Dec 19 16:21:15 2017 kern.info kernel: [   26.344007] br-lte: port 9(vth51) entered forwarding state
+Tue Dec 19 16:21:15 2017 daemon.notice openvpn(client)[4371]: SENT CONTROL [vpn-crwifi]: 'PUSH_REQUEST' (status=1)
+Tue Dec 19 16:21:18 2017 daemon.notice openvpn(client)[4371]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.0.1,topology net30,ping 4,ping-restart 60,ifconfig 172.23.0.81 172.23.0.82'
+Tue Dec 19 16:21:18 2017 daemon.notice openvpn(client)[4371]: OPTIONS IMPORT: timers and/or timeouts modified
+Tue Dec 19 16:21:18 2017 daemon.notice openvpn(client)[4371]: OPTIONS IMPORT: --ifconfig/up options modified
+Tue Dec 19 16:21:18 2017 daemon.notice openvpn(client)[4371]: OPTIONS IMPORT: route options modified
+Tue Dec 19 16:21:18 2017 daemon.notice openvpn(client)[4371]: TUN/TAP device tun0 opened
+Tue Dec 19 16:21:18 2017 daemon.notice openvpn(client)[4371]: TUN/TAP TX queue length set to 100
+Tue Dec 19 16:21:18 2017 daemon.notice openvpn(client)[4371]: do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Tue Dec 19 16:21:18 2017 daemon.notice openvpn(client)[4371]: /sbin/ifconfig tun0 172.23.0.81 pointopoint 172.23.0.82 mtu 1500
+Tue Dec 19 16:21:18 2017 daemon.notice openvpn(client)[4371]: /sbin/route add -net 172.16.0.1 netmask 255.255.255.255 gw 172.23.0.82
+Tue Dec 19 16:21:18 2017 daemon.notice openvpn(client)[4371]: Initialization Sequence Completed
+Tue Dec 19 16:21:37 2017 kern.crit kernel: [   48.842137] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 0, block bitmap and bg descriptor inconsistent: 1707 vs 1708 free clusters
+Tue Dec 19 16:21:37 2017 kern.crit kernel: [   48.855834] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 1, block bitmap and bg descriptor inconsistent: 29967 vs 29968 free clusters
+Tue Dec 19 16:21:37 2017 kern.crit kernel: [   48.869724] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 2, block bitmap and bg descriptor inconsistent: 32144 vs 32145 free clusters
+Tue Dec 19 16:22:11 2017 daemon.warn zabbix_agentd[4370]: active check configuration update from [192.168.10.2:1234] is working again
+Tue Dec 19 16:22:11 2017 daemon.warn zabbix_agentd[4370]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 16:22:11 2017 daemon.warn zabbix_agentd[4370]: active check "system.users.num" is not supported
+Tue Dec 19 16:24:14 2017 daemon.warn zabbix_agentd[4370]: active check configuration update from [192.168.10.2:1234] started to fail (ZBX_TCP_READ() failed: [4] Interrupted system call)
+Tue Dec 19 16:24:33 2017 kern.crit kernel: [  224.438607] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 5, block bitmap and bg descriptor inconsistent: 32124 vs 32126 free clusters
+Tue Dec 19 16:24:33 2017 kern.crit kernel: [  224.452451] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 6, block bitmap and bg descriptor inconsistent: 32213 vs 32216 free clusters
+Tue Dec 19 16:24:33 2017 kern.crit kernel: [  224.466295] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 7, block bitmap and bg descriptor inconsistent: 584 vs 585 free clusters
+Tue Dec 19 16:24:33 2017 kern.crit kernel: [  224.479853] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 8, block bitmap and bg descriptor inconsistent: 1236 vs 1235 free clusters
+Tue Dec 19 16:24:33 2017 kern.crit kernel: [  224.494313] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 16, block bitmap and bg descriptor inconsistent: 355 vs 356 free clusters
+Tue Dec 19 16:24:33 2017 kern.crit kernel: [  224.507944] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 17, block bitmap and bg descriptor inconsistent: 19784 vs 19785 free clusters
+Tue Dec 19 16:24:33 2017 kern.crit kernel: [  224.523477] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 20, block bitmap and bg descriptor inconsistent: 417 vs 418 free clusters
+Tue Dec 19 16:24:33 2017 kern.crit kernel: [  224.537564] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 25, block bitmap and bg descriptor inconsistent: 18600 vs 18601 free clusters
+Tue Dec 19 16:24:33 2017 kern.crit kernel: [  224.553959] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 36, block bitmap and bg descriptor inconsistent: 21607 vs 21608 free clusters
+Tue Dec 19 16:24:33 2017 kern.crit kernel: [  224.570195] EXT4-fs error (device sda1): ext4_mb_generate_buddy:757: group 60, block bitmap and bg descriptor inconsistent: 1597 vs 1599 free clusters
+Tue Dec 19 16:25:14 2017 daemon.warn zabbix_agentd[4370]: active check configuration update from [192.168.10.2:1234] is working again
+Tue Dec 19 16:25:58 2017 kern.notice kernel: [  309.282150] EXT4-fs (sda1): error count since last fsck: 3401
+Tue Dec 19 16:25:58 2017 kern.notice kernel: [  309.287968] EXT4-fs (sda1): initial error at time 1507837169: mb_free_blocks:1452: inode 10911749: block 43654660
+Tue Dec 19 16:25:58 2017 kern.notice kernel: [  309.298468] EXT4-fs (sda1): last error at time 1513671874: ext4_mb_generate_buddy:757
+Tue Dec 19 16:25:58 2017 kern.notice kernel: [  309.306455] EXT4-fs (sda2): error count since last fsck: 115
+Tue Dec 19 16:25:58 2017 kern.notice kernel: [  309.312188] EXT4-fs (sda2): initial error at time 1510862673: mb_free_blocks:1452: inode 14360578: block 732
+Tue Dec 19 16:25:58 2017 kern.notice kernel: [  309.322254] EXT4-fs (sda2): last error at time 1513671661: ext4_mb_generate_buddy:757
+Tue Dec 19 16:33:14 2017 daemon.warn zabbix_agentd[4370]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 16:33:14 2017 daemon.warn zabbix_agentd[4370]: active check "system.users.num" is not supported
+Tue Dec 19 16:43:18 2017 daemon.warn zabbix_agentd[4370]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 16:43:18 2017 daemon.warn zabbix_agentd[4370]: active check "system.users.num" is not supported
+Tue Dec 19 16:55:18 2017 daemon.warn zabbix_agentd[4370]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 16:55:18 2017 daemon.warn zabbix_agentd[4370]: active check "system.users.num" is not supported
+Tue Dec 19 16:57:20 2017 daemon.warn zabbix_agentd[4370]: active check configuration update from [192.168.10.2:1234] started to fail (ZBX_TCP_READ() failed: [4] Interrupted system call)
+Tue Dec 19 16:58:20 2017 daemon.warn zabbix_agentd[4370]: active check configuration update from [192.168.10.2:1234] is working again
+Tue Dec 19 17:06:20 2017 daemon.warn zabbix_agentd[4370]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 17:06:20 2017 daemon.warn zabbix_agentd[4370]: active check "system.users.num" is not supported
+Tue Dec 19 17:10:50 2017 kern.crit kernel: [ 3003.993486] EXT4-fs error (device sda2): ext4_mb_generate_buddy:757: group 71, block bitmap and bg descriptor inconsistent: 21651 vs 21699 free clusters
+Tue Dec 19 17:16:20 2017 daemon.warn zabbix_agentd[4370]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 17:16:20 2017 daemon.warn zabbix_agentd[4370]: active check "system.users.num" is not supported
+Tue Dec 19 17:21:13 2017 daemon.notice openvpn(client)[4371]: TLS: soft reset sec=0 bytes=92460/0 pkts=1761/0
+Tue Dec 19 17:21:13 2017 daemon.notice openvpn(client)[4371]: VERIFY OK: depth=1, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=CRTT CA, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Tue Dec 19 17:21:13 2017 daemon.notice openvpn(client)[4371]: VERIFY OK: nsCertType=SERVER
+Tue Dec 19 17:21:13 2017 daemon.notice openvpn(client)[4371]: VERIFY OK: depth=0, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=vpn-crwifi, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Tue Dec 19 17:21:14 2017 daemon.notice openvpn(client)[4371]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Dec 19 17:21:14 2017 daemon.notice openvpn(client)[4371]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Dec 19 17:21:14 2017 daemon.notice openvpn(client)[4371]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Dec 19 17:21:14 2017 daemon.notice openvpn(client)[4371]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Dec 19 17:21:14 2017 daemon.notice openvpn(client)[4371]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Tue Dec 19 17:26:21 2017 daemon.warn zabbix_agentd[4370]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 17:26:21 2017 daemon.warn zabbix_agentd[4370]: active check "system.users.num" is not supported
+Tue Dec 19 17:32:20 2017 daemon.err zabbix_agentd[4370]: cannot parse list of active checks: cannot parse as a valid JSON object: invalid object format, expected opening character '{' at: ',{"key":"net.if.out[vth11]","delay":30,"lastlogsize":0,"mtime":0},{"key":"net.if.out[vth21,bytes]","delay":30,"lastlogsize":0,"mtime":0},{"key":"net.if.out[vt
+Tue Dec 19 17:38:20 2017 daemon.warn zabbix_agentd[4370]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 17:38:20 2017 daemon.warn zabbix_agentd[4370]: active check "system.users.num" is not supported
+Tue Dec 19 11:10:49 2017 daemon.notice openvpn(client)[4381]: [vpn-crwifi] Inactivity timeout (--ping-restart), restarting
+Tue Dec 19 11:10:49 2017 daemon.notice openvpn(client)[4381]: SIGUSR1[soft,ping-restart] received, process restarting
+Tue Dec 19 11:10:49 2017 daemon.notice openvpn(client)[4381]: Restart pause, 2 second(s)
+Tue Dec 19 11:10:51 2017 daemon.notice openvpn(client)[4381]: Socket Buffers: R=[212992->131072] S=[212992->131072]
+Tue Dec 19 11:10:51 2017 daemon.notice openvpn(client)[4381]: UDPv4 link local: [undef]
+Tue Dec 19 11:10:51 2017 daemon.notice openvpn(client)[4381]: UDPv4 link remote: [AF_INET]123.57.9.21:2194
+Tue Dec 19 11:10:54 2017 daemon.notice openvpn(client)[4381]: TLS: Initial packet from [AF_INET]123.57.9.21:2194, sid=7933b77b 80279409
+Tue Dec 19 11:10:54 2017 daemon.notice openvpn(client)[4381]: VERIFY OK: depth=1, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=CRTT CA, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Tue Dec 19 11:10:54 2017 daemon.notice openvpn(client)[4381]: VERIFY OK: nsCertType=SERVER
+Tue Dec 19 11:10:54 2017 daemon.notice openvpn(client)[4381]: VERIFY OK: depth=0, C=CN, ST=BJ, L=BeiJing, O=CRTT, OU=crwifi, CN=vpn-crwifi, name=vpn-crwifi, emailAddress=crwifi@crtt.com
+Tue Dec 19 11:10:55 2017 daemon.notice openvpn(client)[4381]: Data Channel Encrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Dec 19 11:10:55 2017 daemon.notice openvpn(client)[4381]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Dec 19 11:10:55 2017 daemon.notice openvpn(client)[4381]: Data Channel Decrypt: Cipher 'BF-CBC' initialized with 128 bit key
+Tue Dec 19 11:10:55 2017 daemon.notice openvpn(client)[4381]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Tue Dec 19 11:10:55 2017 daemon.notice openvpn(client)[4381]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Tue Dec 19 11:10:55 2017 daemon.notice openvpn(client)[4381]: [vpn-crwifi] Peer Connection Initiated with [AF_INET]123.57.9.21:2194
+Tue Dec 19 11:10:58 2017 daemon.notice openvpn(client)[4381]: SENT CONTROL [vpn-crwifi]: 'PUSH_REQUEST' (status=1)
+Tue Dec 19 11:11:03 2017 daemon.notice openvpn(client)[4381]: SENT CONTROL [vpn-crwifi]: 'PUSH_REQUEST' (status=1)
+Tue Dec 19 11:11:03 2017 daemon.notice openvpn(client)[4381]: PUSH: Received control message: 'PUSH_REPLY,route 172.16.0.1,topology net30,ping 4,ping-restart 60,ifconfig 172.23.0.81 172.23.0.82'
+Tue Dec 19 11:11:03 2017 daemon.notice openvpn(client)[4381]: OPTIONS IMPORT: timers and/or timeouts modified
+Tue Dec 19 11:11:03 2017 daemon.notice openvpn(client)[4381]: OPTIONS IMPORT: --ifconfig/up options modified
+Tue Dec 19 11:11:03 2017 daemon.notice openvpn(client)[4381]: OPTIONS IMPORT: route options modified
+Tue Dec 19 11:11:03 2017 daemon.notice openvpn(client)[4381]: Preserving previous TUN/TAP instance: tun0
+Tue Dec 19 11:11:03 2017 daemon.notice openvpn(client)[4381]: Initialization Sequence Completed
+Tue Dec 19 11:12:42 2017 daemon.warn zabbix_agentd[4385]: active check configuration update from [192.168.10.2:1234] started to fail (ZBX_TCP_READ() failed: [4] Interrupted system call)
+Tue Dec 19 11:13:42 2017 daemon.warn zabbix_agentd[4385]: active check configuration update from [192.168.10.2:1234] is working again
+Tue Dec 19 11:15:44 2017 daemon.warn zabbix_agentd[4385]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 11:15:44 2017 daemon.warn zabbix_agentd[4385]: active check "system.users.num" is not supported
+Tue Dec 19 11:25:55 2017 daemon.warn zabbix_agentd[4385]: Remote command [who | wc -l] result is not unsigned integer
+Tue Dec 19 11:25:55 2017 daemon.warn zabbix_agentd[4385]: active check "system.users.num" is not supported
