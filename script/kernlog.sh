@@ -14,7 +14,8 @@ do
 		do
 			cat $rawdatapath/$dir/$file >> $datapath/$dir.tmp
 		done
-		../bin/kernlog $datapath/$dir.tmp $datapath/$dir.log $datapath/$dir.err
-		rm $datapath/$dir.tmp
+		../bin/kernlog $datapath/$dir.tmp $datapath/$dir.tmplog $datapath/$dir.err
+		sort -s --field-separator="," --key=1,2 $datapath/$dir.tmplog > $datapath/$dir.log
+		rm $datapath/$dir.tmp $datapath/$dir.tmplog
 	fi
 done
